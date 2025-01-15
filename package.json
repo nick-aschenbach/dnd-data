@@ -1,0 +1,21 @@
+{
+  "name": "dnd-data",
+  "version": "1.0.0",
+  "description": "An open-source library of Dungeons and Dragons data, providing easy access to backgrounds, classes, monsters, items, spells and species. Perfect for developers building D&D tools, apps or integrations.",
+  "exports": {
+    "./backgrounds": "./data/backgrounds.json",
+    "./classes": "./data/classes.json",
+    "./items": "./data/items.json",
+    "./monsters": "./data/monsters.json",
+    "./species": "./data/species.json",
+    "./spells": "./data/spells.json",
+    ".": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick-aschenbach/dnd-data.git"
+  },
+  "keywords": ["dnd", "dungeons and dragons", "d&d", "dungeons & dragons"],
+  "author": "Nick Aschenbach <nick.aschenbach@gmail.com>",
+  "license": "MIT"
+}
